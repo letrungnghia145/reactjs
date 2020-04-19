@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-function App() {
-  return (
-    <div className="text-danger">
-      Hello Reactjs
-    </div>
-  );
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+  render() {
+    return (
+      <div>Hello Reactjs</div>
+    );
+  }
 }
 
 export default App;
